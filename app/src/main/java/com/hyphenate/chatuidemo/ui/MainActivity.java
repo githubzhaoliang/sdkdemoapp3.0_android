@@ -265,6 +265,8 @@ public class MainActivity extends BaseActivity {
 
 		@Override
 		public void onMessageRead(List<EMMessage> messages) {
+//			updateUnreadLabel();
+			refreshUIWithMessage();
 		}
 
 		@Override

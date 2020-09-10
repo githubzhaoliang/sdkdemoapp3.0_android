@@ -1370,6 +1370,7 @@ public class DemoHelper {
 
 			@Override
 			public void onMessageRead(List<EMMessage> messages) {
+			    EMLog.d(TAG, "onMessageRead");
 			}
 			
 			@Override
