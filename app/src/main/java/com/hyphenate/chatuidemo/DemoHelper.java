@@ -319,6 +319,7 @@ public class DemoHelper {
 
         // Offline call push
         EMClient.getInstance().callManager().getCallOptions().setIsSendPushIfOffline(getModel().isPushCall());
+        EMClient.getInstance().callManager().getCallOptions().setClarityFirst(true);
 
         //init externalAudio
         int hz = PreferenceManager.getInstance().getCallAudioSampleRate();
